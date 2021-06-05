@@ -63,7 +63,7 @@ function App() {
   return (
     <div>
       <div className="titulo">
-        <h1>Piano con React</h1>
+        <h1>Piano con React, subiendo un cambio</h1>
         <h2>Hecho por Male 😀</h2>
         { sonando && <h3>Esta sonando la nota {sonando}</h3>}
         {/* ese && significa si sonando tiene algo que no sea un string vacio mostrar eso */}
