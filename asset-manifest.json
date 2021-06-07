@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/piano-react/static/css/main.c2b023a2.chunk.css",
-    "main.js": "/piano-react/static/js/main.2f898ee9.chunk.js",
-    "main.js.map": "/piano-react/static/js/main.2f898ee9.chunk.js.map",
+    "main.css": "/piano-react/static/css/main.c47d74ae.chunk.css",
+    "main.js": "/piano-react/static/js/main.40fc6c4f.chunk.js",
+    "main.js.map": "/piano-react/static/js/main.40fc6c4f.chunk.js.map",
     "runtime-main.js": "/piano-react/static/js/runtime-main.5b80130c.js",
     "runtime-main.js.map": "/piano-react/static/js/runtime-main.5b80130c.js.map",
     "static/js/2.3458fa65.chunk.js": "/piano-react/static/js/2.3458fa65.chunk.js",
     "static/js/2.3458fa65.chunk.js.map": "/piano-react/static/js/2.3458fa65.chunk.js.map",
     "index.html": "/piano-react/index.html",
-    "static/css/main.c2b023a2.chunk.css.map": "/piano-react/static/css/main.c2b023a2.chunk.css.map",
+    "static/css/main.c47d74ae.chunk.css.map": "/piano-react/static/css/main.c47d74ae.chunk.css.map",
     "static/js/2.3458fa65.chunk.js.LICENSE.txt": "/piano-react/static/js/2.3458fa65.chunk.js.LICENSE.txt",
     "static/media/do.wav": "/piano-react/static/media/do.a2508143.wav",
     "static/media/fa.wav": "/piano-react/static/media/fa.fdf4ed24.wav",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b80130c.js",
     "static/js/2.3458fa65.chunk.js",
-    "static/css/main.c2b023a2.chunk.css",
-    "static/js/main.2f898ee9.chunk.js"
+    "static/css/main.c47d74ae.chunk.css",
+    "static/js/main.40fc6c4f.chunk.js"
   ]
 }
