@@ -1,15 +1,7 @@
 import {useState} from 'react';
 import './App.sass';
 
-function App() {
-
-  //Hook useState:
-  //1.- Variable inicial
-  //2.- Funcion que se dedique a actualizar la variable
-  //3.- El valor inicial de esa variable
-  const [click, setClick] = useState(0)
-  const [sonando, setSonando] = useState('')
-
+function App() {  
   const notas = [
     {
       nombre: 'Do',
@@ -46,8 +38,15 @@ function App() {
     },
   ]
 
-  const handleClick = (nota) => {
-    setSonando('Esta sonando' + nota.nombre)
+  //Hook useState:
+  //1.- Variable inicial
+  //2.- Funcion que se dedique a actualizar la variable
+  //3.- El valor inicial de esa variable
+  const [click, setClick] = useState(0)
+  const [sonando, setSonando] = useState('')
+
+  const handleClick = nota => {
+    setSonando(nota.nombre)
     const sonido = new Audio(nota.link.default)
     sonido.play()
   }
@@ -58,14 +57,14 @@ function App() {
 
   setTimeout(()=>{
     setSonando('') //actualiza a sonando
-  },200)
+  },300)
 
   return (
     <div>
       <div className="titulo">
-        <h1>Piano con React, subiendo un cambio</h1>
+        <h1>Piano con React.js 🎹</h1>
         <h2>Hecho por Male 😀</h2>
-        { sonando && <h3>Esta sonando la nota {sonando}</h3>}
+        <h3 className="esta-sonando">{sonando}</h3>
         {/* ese && significa si sonando tiene algo que no sea un string vacio mostrar eso */}
         <button onClick={handlerClickCount}>Has dado{click} clicks</button>
       </div>
